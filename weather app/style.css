@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    background-color: lightcoral;
+    width: 28vw;
+    border-radius: 30px;
+    height: 58vh;
+}
+.box > h1{
+    text-align: center;
+    margin:2vw;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.2vw;
+}
+.box > .img{
+    width: 24vw;
+    height: 10vw;
+    margin: auto;
+}
+.cityName{
+    text-align: center;
+    padding: 0 1vw;
+    font-size: 1.5vw;
+}
+
+.cityName h2{
+    font-weight: 400;
+    letter-spacing: 3px;
+
+
+}
+.temp{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.additionals{
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1.5vw;
+    margin-top: 1.5vw;
+}
